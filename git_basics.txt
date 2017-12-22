@@ -1,0 +1,40 @@
+git commit
+
+git checkout hash filename
+-This will reset the file to the indicated hash
+
+git checkout -b new-branch-name
+
+git checkout -- filename
+git reset
+**Different between the previous two commands
+
+
+git show
+
+git diff hash1..hash2
+git diff branch1..branch2
+
+git add
+
+git log filename     or     git log
+
+git merge source destination
+
+git clone URL
+or
+git close file:///path/to/repository /path/to/new/repository
+
+git remote
+
+git pull remote current-branch
+-If I do this and it notes that I have unsaved changed then git checkout --filename should get rid of the changes then I try again, or I can do git commit to save the changes before I pull
+
+***Pushing changes to a remote repo***
+git push remote-name branch-name
+
+1) Add file to staging area
+2) Commit change
+3) Push changes
+
+git init
