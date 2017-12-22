@@ -1,2 +1,4 @@
 First line
 Second line
+
+This line was entered in the second commit.
